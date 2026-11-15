@@ -1,5 +1,11 @@
 # Mini Git Forge
 
+[![make.fun competition](https://make.fun/badge/github-core-clone-01.svg)](https://make.fun/bounty/github-core-clone-01)
+[![rank](https://make.fun/badge/github-core-clone-01/amirbeh1/git-forge-bounty/rank.svg)](https://make.fun/bounty/github-core-clone-01)
+[![reward](https://make.fun/badge/github-core-clone-01/amirbeh1/git-forge-bounty/reward.svg)](https://make.fun/bounty/github-core-clone-01)
+
+Entry for the make.fun bounty [Build a GitHub-compatible git forge](https://make.fun/bounty/github-core-clone-01).
+
 A tiny, dependency-free Git server (Git Smart HTTP protocol) in Node.js 22. Supports `git clone`, `git fetch` and `git push`. Repositories are stored as bare repos in `./repos`.
 
 ## Requirements
@@ -39,3 +45,6 @@ URLs look like `/<name>.git` or `/<owner>/<name>.git`.
 - No UI, users, or permissions; only an optional single push token.
 - No "dumb" HTTP protocol, no SSH.
 - Protocol v0/v1 and v2 are supported by forwarding `Git-Protocol` to git.
+
+## License
+MIT
