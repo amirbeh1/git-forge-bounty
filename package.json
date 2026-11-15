@@ -1,0 +1,13 @@
+{
+  "name": "mini-git-forge",
+  "version": "1.0.0",
+  "description": "Minimal GitHub-compatible git forge (Smart HTTP) in Node.js, zero dependencies",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
